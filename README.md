@@ -7,7 +7,11 @@
 ## build
   docker build -t convertor .
 
+   docker build -t lali .
 
 
+## wsl:-RUN 
+
+ docker run -v $PWD/images:/app/images -v $(pwd)/output:/app/output convertqr images
 
 
