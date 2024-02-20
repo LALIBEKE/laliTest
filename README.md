@@ -12,6 +12,6 @@
 
 ## wsl:-RUN 
 
- docker run -v $PWD/images:/app/images -v $(pwd)/output:/app/output convertqr images
+ docker run -v $PWD/images:/app/images -v  $(pwd)/output:/app/output -e pdfname=myconvertor convertqr images
 
 
